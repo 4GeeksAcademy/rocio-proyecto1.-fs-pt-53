@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
 }
+body{ 
+    background-color: black;
+}
 img{
     width: 30px;
     margin-top: 3px;
 } 
-.img2{ 
+.right-menu{ 
     margin-left: 70%;
 }
 .head{
@@ -23,12 +26,10 @@ h2{
     margin-top: 0%;
     font-family: roboto;
 }
-.post-img{
+.img-post{
     width: 100%;
 }
-body{ 
-    background-color: black;
-}
+
 .post{
     background-color: white;
     width: 30%;
@@ -38,7 +39,7 @@ body{
     display: flex;
     padding: 5px;   
 }
-.save{
+.bookmark{
     margin-left: 80%;
 }
 p{
